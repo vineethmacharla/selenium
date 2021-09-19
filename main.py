@@ -9,7 +9,7 @@ driver.get("https://www.cricbuzz.com/")
 driver.maximize_window()
 
 driver.find_element_by_xpath("//*[@id='teamDropDown']").click()
-time.sleep(2)
+time.sleep(3)
 driver.find_element_by_xpath("//*[@id='page-wrapper']/div[5]/div[1]/div[2]/div[2]").click()
 time.sleep(2)
 driver.find_element_by_xpath("//*[@id='page-wrapper']/span[2]/span/div[2]/nav/a[3]").click()
